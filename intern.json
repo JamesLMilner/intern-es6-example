@@ -1,5 +1,5 @@
 {
-    "suites": "tests/**/*.js",
+    "suites": "tests/unit/**/*.js",
     "plugins": [
         "node_modules/babel-register/lib/node.js"
     ]
