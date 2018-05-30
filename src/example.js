@@ -19,4 +19,7 @@ export class classExample {
     getX() {
         return this.x
     }
+    notCodeCovered() {
+        return "code coverage won't get to this";
+    }
 }
