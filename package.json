@@ -13,6 +13,9 @@
   },
   "eslintConfig" : {
     "extends" : "eslint:recommended",
+    "parserOptions" : {
+      "sourceType" :"module"
+    },
     "env" : {
       "node" : true,
       "browser" : true,
