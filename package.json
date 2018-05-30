@@ -4,11 +4,20 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "intern": "^4.0.0-rc.1"
+    "intern": "^4.2.0"
   },
   "devDependencies": {
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "babel-register": "^6.26.0"
+    "babel-register": "^6.26.0",
+    "eslint": "^4.19.1"
+  },
+  "eslintConfig" : {
+    "extends" : "eslint:recommended",
+    "env" : {
+      "node" : true,
+      "browser" : true,
+      "es6" : true
+    }
   },
   "scripts": {
     "test": "intern"
