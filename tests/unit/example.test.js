@@ -1,7 +1,7 @@
 const { describe, it } = intern.getInterface('bdd');
 const { expect, assert } = intern.getPlugin('chai');
 
-import { functionExample, classExample, constructorExample } from '../src/example';
+import { functionExample, classExample, constructorExample } from '../../src/example';
 
 describe('Example', () => {
 
